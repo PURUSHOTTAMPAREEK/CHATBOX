@@ -21,4 +21,4 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 sync ./main.py s3://purushottampareek/main.py
+          aws s3 sync ./icic s3://purushottampareek
